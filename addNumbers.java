@@ -24,5 +24,11 @@ public class addNumbers {
 
         //label
 
+        JLabel label2 = new JLabel("Enter second number: ");
+        label2.setBounds(50, 60, 150, 30);
+        frame.add(label2);
+
+        //textfield
+
     }
 }
