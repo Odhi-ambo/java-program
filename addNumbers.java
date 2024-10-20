@@ -29,6 +29,20 @@ public class addNumbers {
         frame.add(label2);
 
         //textfield
+        JTextField text2 = new JTextField();
+        text2.setBounds(200, 60, 150, 30);
+        frame.add(text2);
+
+        //button
+        JButton button = new JButton("Add");
+        button.setBounds(150, 100, 100, 30);
+        frame.add(button);
+
+        //label
+        JLabel label3 = new JLabel();
+        label3.setBounds(150, 140, 150, 30);
+        frame.add(label3);
+        
 
     }
 }
