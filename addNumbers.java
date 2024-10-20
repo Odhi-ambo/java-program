@@ -42,7 +42,15 @@ public class addNumbers {
         JLabel label3 = new JLabel();
         label3.setBounds(150, 140, 150, 30);
         frame.add(label3);
-        
+
+        //action listener
+        button.addActionListener(e -> {
+            int num1 = Integer.parseInt(text1.getText());
+            int num2 = Integer.parseInt(text2.getText());
+            int sum = num1 + num2;
+            label3.setText("Sum is: " + sum);
+        });
+
 
     }
 }
