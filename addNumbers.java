@@ -16,5 +16,13 @@ public class addNumbers {
         label1.setBounds(50, 20, 150, 30);
         frame.add(label1);
 
+        //textfield
+        JTextField text1 = new JTextField();
+        text1.setBounds(200, 20, 150, 30);
+        frame.add(text1);
+
+
+        //label
+
     }
 }
