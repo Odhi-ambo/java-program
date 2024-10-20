@@ -50,6 +50,8 @@ public class addNumbers {
             int sum = num1 + num2;
             label3.setText("Sum is: " + sum);
         });
+        //frame visibility
+        frame.setVisible(true);
 
 
     }
